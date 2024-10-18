@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs domashna</title>
+    <style>
+        .labeldatum{
+            width: 550px;
+            height: 150px;
+            background-color: rgb(183, 153, 211);
+            position:relative;
+            left: 600px;
+            top: -150px;
+        }
+      h1,
+      h2 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>ГОДИШНА ДАНОЧНА ПРИЈАВА</h1>
+    <h2>за утврдување на данокот на личен доход</h2>
+    <hr />
+
+    <form action="">
+      <label for="EMBG">ЕМБГ</label>
+      <input type="number" style="margin-left: 200px" />
+      <br />
+      <label for="ImePrezimeAdresa"
+        >Име и презиме и адреса на живеење за контакт</label
+      >
+      <textarea name="" id="ImePrezimeAdresa"></textarea>
+      <br />
+      <br />
+      <label for="Telefon">Телефон</label>
+      <input type="number" />
+      <br />
+      <br />
+      <label for="email">е-пошта</label>
+      <input type="email" name="" id="email" />
+    </form>
+    <div class="labeldatum">
+      <form action="">
+        <label for="">Датум и број</label>
+        <textarea name="DatumBroj" id="" style="width: 400px; height: 130px; margin-top: 5px; margin-bottom: 5px;"></textarea>
+        <br>
+        <label for="">Даночен период</label>
+        <br>
+        од <input type="datetime" name="" id=""> до
+        <input type="datetime" name="" id=""> <br>
+        <label for="">Датум на издавање</label>
+        <input type="datetime" name="" id="">
+        <br>
+        <label for="">Рок за потврдување</label>
+        <input type="datetime" name="" id="">
+        <br>
+        <label for="">Фолио број</label>
+        <input type="number" name="" id="">
+        <br>
+        <label for="">Службена исправка</label>
+        <input type="checkbox" name="" id="">
+    </form>
+    </div>
+  </body>
+</html>
